@@ -1,0 +1,285 @@
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*Landing Page*/
+
+.mainpage{
+	text-align: center;
+	padding-top: 5vh;
+}
+
+.logo{
+    border: none;
+    height: auto;
+    max-width: 75%;
+    margin: none;
+    margin-bottom: 2%;
+}
+
+#featured{
+	background-color: #F0F8FE;
+	padding: 3%;
+	padding-bottom: 0;
+	margin: auto;
+}
+
+.full-button{
+	margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.card{
+    color: #2699FB;
+}
+
+.card h1{
+	font-size: 2em;
+    background-color: #BCE0FD;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.card p{
+    border-bottom: 1px solid #BCE0FD;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media screen and (max-width: 992px){
+	.mainheader h1{
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 767px){
+
+}
+
+/*Forms*/
+
+.pass {
+    color:#33d646;
+}
+
+.errorInput {
+    color: #8c1111fc;
+    border-Color: #a65555;
+    background-color: #d073738c;
+}
+
+.errorInput::placeholder {
+    color: #fb2626;
+}
+
+.errorInput:focus {
+    background-color: #fcdbdb;
+    color: #fb2626b1;
+}
+
+.error {
+    color: #8c1111fc;
+}
+
+form {
+    margin-top: 5%;
+    background-color: #F0F8FE;
+    color: #2699FB;
+}
+
+form h2 {
+    color: #2699FB;
+    background-color: #BCE0FD;
+    text-align: center;
+    padding: 15px;
+}
+
+ form button {
+	width: 85%;
+}
+
+.formInput {
+    border-color: #BCE0FD;
+    background-color: #F0F8FE;
+    color: #2699FB;
+}
+
+.formInput::placeholder {
+    color: #2699FB;
+}
+
+.formInput:focus {
+    background-color: #F0F8FE;
+    color: #2699FB;
+}
+	
+/*Navbar*/
+
+.navbar {
+	background-color: #007BFF;
+	color: #FFFFFF;
+	border-bottom: 12px solid #BCE0FD;
+}
+
+.navbar-logo{
+    max-width:250px;
+    height:auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.navbar a {
+	color: #FFFFFF;
+}
+
+.navbar .dropdown-item {
+	color :#000000;
+	white-space: normal;
+}
+
+.navbar button, .navbar-toggler-icon {
+	border-color: #FFFFFF;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+
+/*Product Listings*/
+
+.main-section {
+    background-color: #F0F8FE;
+}
+
+#products-section {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.category-col {
+    background-color: #F0F8FE;
+}
+
+.category-col h3 {
+	background-color: #BCE0FD;
+    text-align: center;
+	margin: none;
+	padding: 15px;
+}
+
+.category-col select {
+    text-transform: none;
+    width: 100%;
+    margin: auto;
+}
+
+.product-col {
+    background-color: #F0F8FE;
+}
+
+.card-purchace-area{
+    text-align: center;
+    border: none !important;
+    margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 992px){
+	.category-col h3{
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.category-col h3{
+		font-size: 1em;
+	}
+}
+
+/*Checkout*/
+.checkoutContainer {
+    background-color: #F0F8FE;
+    color: #2699FB;
+}
+
+.cardStyle {
+    border: 1px solid #BCE0FD;
+    border-radius: 5%;;
+    padding: 10px 3px 10px 3px;
+}
+
+.bottomDivider {
+    width: 100%;
+    border-bottom: 2px solid #2699FB;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.checkoutContainer h2 {
+    color: #2699FB;
+    background-color: #BCE0FD;
+    padding: 15px;
+    padding-left: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+#payment_button {
+    width: 100%;
+    height: 50%;
+    margin-top: 20%;
+}
+
+section {
+	margin-top: 2%;
+    background-color: #F0F8FE;
+    color: #2699FB;
+}
+
+section input {
+    border-color: #F0F8FE;
+    background-color: #F0F8FE;
+    color: #2699FB;
+}
+
+.bottomDivider {
+    border-bottom: 2px solid #2699FB;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+ section h2 {
+    color: #2699FB;
+    background-color: #BCE0FD;
+    padding: 15px;
+    padding-left: 35px;
+    width: 100%;
+ }
+
+ img {
+    width: 100%;
+    border: 1px solid;
+ }
+
+ input[type='checkbox'] {
+    width: 1rem;
+    height: 1rem;
+ }
+            
+input[type='number'] {
+    height: 25%;
+}
+           
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+.checkout > .col-2 {
+	background-color: white;
+}

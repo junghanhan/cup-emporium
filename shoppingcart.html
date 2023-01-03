@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<!-- Our CSS -->
+		<link rel="stylesheet" href="style/style.css">
+		 <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- using bootstrap containers -->
+		<div id='nav'></div>
+        <section class='contianer'>
+            <div class='row checkout'>
+                <div class='col-2'></div>
+                <div class='col mx-0'>
+                    <h2>Shopping Cart</h2>
+                    <div id='insertSection'></div>
+                    <div class='row bottomDivider'>
+                        <div class='col-2'>
+                            <button class='btn btn-primary' id='deleteSelected'>Delete Selected</button>
+                        </div>
+                        <div class='col-2'>
+                            <button class='btn btn-primary' id='deleteAll'>Delete All</button>
+                        </div>
+                        <div class='col-4'><h4 class='float-right'>Total: $</h4></div>
+                        <div class='col-2'>
+                            <h4 id='Total' class='float-left'></h4>
+                        </div>
+                        <div class='col-2'>
+                            <a id='checkout-button' href='./checkout.html'><button class='btn btn-primary'>Checkout</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-2'></div>
+            </div>
+        </section>
+        <script type="module" src="script/loadCartInfo.js"></script>
+    </body>
+</html>
