@@ -1,15 +1,27 @@
-# shopping-cart
+# Cup Emporium 
 
-ICS199 2021 shopping cart application
+E-Commerce website for local business selling hand made ceramic cups and seeking to open distribution to North American market.
 
-***
-File Structure:
+This is a group project of ICS-199 course at Camosun College.
 
-- img (Holds our product images and banner images ONLY)
-- style (Holds our personalized styles used with bootsrap)
-- scripts (Holds our custom Javascript files with JQuery)
-- root All HTML and PHP files go under the root directory.
-***
-	Alexander Bos: Team Lead/Technical Writer, Week 1
-	Adrian Chlysta: Technical Writer, Week 1
-	Jung-Han Han: Technical Writer, Week 1
+## Team
+Jung-Han Han:
+- Frontend, middleware developer
+- Data management, page routing
+- Product listings page, order history, and shopping cart
+
+Alexander Bos:
+- Middleware, backend developer
+- Form handling and validation
+- Add product page, checkout, and login/register
+
+Adrian Chlysta:
+- Frontend developer
+- Page building and navigation
+- Landing page, navbar
+
+## Used techologies
+- JavaScript
+- PHP
+- MySQL
+- Stripe
